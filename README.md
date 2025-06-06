@@ -79,9 +79,21 @@ This is currently a **frontend-only prototype**. Planned backend upgrades includ
 ## 🤝 Team & Credits
 
 Built with ❤️ by a passionate team during the **BuildAThon Hackathon**  
-> 👤 Jitesh Bhakat (Frontend Developer)  
-> 👥 Add more team members here with GitHub / LinkedIn links
+> 👤 Jitesh  
 
+> 👤 Alok 
+
+> 👤 Priyanshu
+
+> 👤 Anjali
+
+> 👤 Patel
+ <p align="center">
+  <a href="https://github.com/Jitesh8260"><img src="https://github.com/subham-behera/e-Pariksha/blob/main/assets/Jitesh8260.png" width="70px" alt="Jitesh" /></a><!--
+  --><a href="https://github.com/alokrajcse"><img src="https://github.com/alokrajcse/OrbitX/blob/master/SCREENSHOTS_ORBITX/alok.png" width="70px" alt="Alok" /></a><!-- 
+   
+ </p>
+<h3 align="center">Thanks to all Collaborators 💪</h3>
 ---
 
 ## 📄 License

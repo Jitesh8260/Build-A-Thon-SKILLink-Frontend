@@ -1,4 +1,4 @@
-# 🚀 SKILLink – Skill Exchange & Learning Platform
+# 🚀 SKILLink – Skill Exchange & Learning Platform (FrontEnd)
 
 **SKILLink** is an innovative web platform built during the **BuildAThon Hackathon** to empower people to **learn, teach, and exchange skills**. Inspired by platforms like Udemy, SKILLink adds a unique twist by allowing users to **exchange skills directly**, making learning more practical, community-driven, and accessible.
 

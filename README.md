@@ -25,12 +25,11 @@ Visual previews of the SKILLink interface:
 
 | 🔸 Page | 🖼️ Screenshot | 📄 Description |
 |--------|---------------|----------------|
-| **Landing Page** | ![Landing](assets/screenshots/landing-page.png) | A modern and clean introductory page with CTAs like “Join Now”, highlighting the platform's value. |
-| **Home Page** | ![Home](assets/screenshots/home-page.png) | Displays trending courses, recommended skill swaps, and user dashboard features. |
-| **Course Page** | ![Course](assets/screenshots/course-page.png) | Detailed course view showing description, instructor info, and options to enroll or exchange. |
-| **Profile Page** | ![Profile](assets/screenshots/profile-page.png) | Shows user info, owned skills, learning history, and exchange offers. |
+| **Landing Page** | ![Landing](https://github.com/Jitesh8260/Build-A-Thon-SKILLink-Frontend/blob/main/assets/landing.png) | A modern and clean introductory page with CTAs like “Join Now”, highlighting the platform's value. |
+| **Home Page** | ![Home](https://github.com/Jitesh8260/Build-A-Thon-SKILLink-Frontend/blob/main/assets/home.png) | Displays trending courses, recommended skill swaps, and user dashboard features. |
+| **Course Page** | ![Course](https://github.com/Jitesh8260/Build-A-Thon-SKILLink-Frontend/blob/main/assets/course.png) | Detailed course view showing description, instructor info, and options to enroll or exchange. |
+| **Profile Page** | ![Profile](https://github.com/Jitesh8260/Build-A-Thon-SKILLink-Frontend/blob/main/assets/profile.png) | Shows user info, owned skills, learning history, and exchange offers. |
 
-> 📁 Make sure screenshots are saved in `assets/screenshots/` for links to work.
 
 ---
 

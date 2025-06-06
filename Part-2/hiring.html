@@ -1,0 +1,336 @@
+<html>
+ <head>
+  <title>
+   Upwork Talent Search
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e4e4e4;
+        }
+        .header a {
+            text-decoration: none;
+            color: #000;
+            margin: 0 10px;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .header .search-bar input {
+            padding: 5px;
+            border: 1px solid #e4e4e4;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        .header .search-bar select {
+            padding: 5px;
+            border: 1px solid #e4e4e4;
+            border-radius: 4px;
+        }
+        .header .auth-buttons a {
+            padding: 5px 10px;
+            border: 1px solid #e4e4e4;
+            border-radius: 4px;
+        }
+        .header .auth-buttons .sign-up {
+            background-color: #0a0;
+            color: #fff;
+        }
+        .main-content {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 20%;
+            padding-right: 20px;
+        }
+        .sidebar h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar .filter-group {
+            margin-bottom: 20px;
+        }
+        .sidebar .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .sidebar .filter-group input {
+            margin-right: 10px;
+        }
+        .content {
+            width: 80%;
+        }
+        .content .tabs {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .content .tabs a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px 20px;
+            border-bottom: 2px solid transparent;
+        }
+        .content .tabs a.active {
+            border-bottom: 2px solid #0a0;
+            color: #0a0;
+        }
+        .content .profile-card {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #e4e4e4;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .content .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .content .profile-card .profile-info {
+            flex-grow: 1;
+        }
+        .content .profile-card .profile-info h4 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .content .profile-card .profile-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .content .profile-card .profile-info .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content .profile-card .profile-info .skills span {
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin: 5px;
+        }
+        .content .profile-card .profile-info .availability {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .content .profile-card .profile-info .availability i {
+            color: #0a0;
+            margin-right: 5px;
+        }
+        .content .profile-card .view-profile {
+            padding: 10px 20px;
+            border: 1px solid #0a0;
+            border-radius: 4px;
+            color: #0a0;
+            text-decoration: none;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <div class="logo">
+    Upwork
+   </div>
+   <div class="search-bar">
+    <input placeholder="Search for talent" type="text"/>
+    <select>
+     <option value="talent">
+      Talent
+     </option>
+     <option value="jobs">
+      Jobs
+     </option>
+    </select>
+   </div>
+   <div class="auth-buttons">
+    <a href="#">
+     Log in
+    </a>
+    <a class="sign-up" href="#">
+     Sign up
+    </a>
+   </div>
+  </div>
+  <div class="main-content">
+   <div class="sidebar">
+    <div class="filter-group">
+     <h3>
+      Talent badge
+     </h3>
+     <label>
+      <input type="checkbox"/>
+      Top Rated Plus
+     </label>
+     <label>
+      <input type="checkbox"/>
+      Top Rated
+     </label>
+     <label>
+      <input type="checkbox"/>
+      Rising Talent
+     </label>
+    </div>
+    <div class="filter-group">
+     <h3>
+      Skills
+     </h3>
+     <label>
+      <input type="checkbox"/>
+      JavaScript
+     </label>
+     <label>
+      <input type="checkbox"/>
+      PHP
+     </label>
+     <label>
+      <input type="checkbox"/>
+      WordPress
+     </label>
+     <label>
+      <input type="checkbox"/>
+      HTML5
+     </label>
+     <label>
+      <input type="checkbox"/>
+      CSS
+     </label>
+     <label>
+      <input type="checkbox"/>
+      React
+     </label>
+    </div>
+   </div>
+   <div class="content">
+    <div class="tabs">
+     <a class="active" href="#">
+      Talent
+     </a>
+     <a href="#">
+      Jobs
+     </a>
+    </div>
+    <div class="profile-card">
+     <img alt="Profile picture of Raymond V." height="100" src="https://storage.googleapis.com/a1aa/image/BGggNvFBr6L0MtznxZLf3LMouPM8B8vDnFIaJSseRrMbvR2TA.jpg" width="100"/>
+     <div class="profile-info">
+      <h4>
+       Raymond V.
+      </h4>
+      <p>
+       Web Developer &amp; Designer
+      </p>
+      <p>
+       United States
+      </p>
+      <p>
+       $45/hr   |   99% Job Success   |   $400K+ earned
+      </p>
+      <div class="skills">
+       <span>
+        JavaScript
+       </span>
+       <span>
+        Web Development
+       </span>
+       <span>
+        WordPress
+       </span>
+       <span>
+        Webflow
+       </span>
+       <span>
+        Shopify
+       </span>
+       <span>
+        Landing Page
+       </span>
+       <span>
+        +9
+       </span>
+      </div>
+      <div class="availability">
+       <i class="fas fa-bolt">
+       </i>
+       Available now
+      </div>
+      <p>
+       Raymond V. has worked 20 jobs related to your search.
+      </p>
+     </div>
+     <a class="view-profile" href="#">
+      View profile
+     </a>
+    </div>
+    <div class="profile-card">
+     <img alt="Profile picture of Ahmed I." height="100" src="https://storage.googleapis.com/a1aa/image/Zupwz69PKYYsNZIGIzVOe5wNpBS6wDliWaL6tgEfa6CcvR2TA.jpg" width="100"/>
+     <div class="profile-info">
+      <h4>
+       Ahmed I.
+      </h4>
+      <p>
+       Full Stack Web Developer
+      </p>
+      <p>
+       Canada
+      </p>
+      <p>
+       $60/hr   |   99% Job Success   |   $300K+ earned
+      </p>
+      <div class="skills">
+       <span>
+        JavaScript
+       </span>
+       <span>
+        Web Development
+       </span>
+       <span>
+        WordPress
+       </span>
+       <span>
+        Webflow
+       </span>
+       <span>
+        Shopify
+       </span>
+       <span>
+        Landing Page
+       </span>
+       <span>
+        +9
+       </span>
+      </div>
+      <div class="availability">
+       <i class="fas fa-bolt">
+       </i>
+       Available now
+      </div>
+      <p>
+       Ahmed I. has worked 20 jobs related to your search.
+      </p>
+     </div>
+     <a class="view-profile" href="#">
+      View profile
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

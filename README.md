@@ -76,36 +76,31 @@ This is currently a **frontend-only prototype**. Planned backend upgrades includ
 
 ---
 
+
 ## 🤝 Team & Credits
 
 Built with ❤️ by a passionate team during the **BuildAThon Hackathon**  
+
 > 👤 Jitesh  
+> 👤 Alok  
+> 👤 Priyanshu  
+> 👤 Anjali  
+> 👤 Patel  
 
-> 👤 Alok 
-
-> 👤 Priyanshu
-
-> 👤 Anjali
-
-> 👤 Patel
- <p align="center">
+<p align="center" >
   <a href="https://github.com/Jitesh8260"><img src="https://github.com/subham-behera/e-Pariksha/blob/main/assets/Jitesh8260.png" width="70px" alt="Jitesh" /></a><!--
-  --><a href="https://github.com/alokrajcse"><img src="https://github.com/alokrajcse/OrbitX/blob/master/SCREENSHOTS_ORBITX/alok.png" width="70px" alt="Alok" /></a><!-- 
-   
- </p>
+ --><a href="https://github.com/alokrajcse"><img src="https://github.com/alokrajcse/OrbitX/blob/master/SCREENSHOTS_ORBITX/alok.png" width="70px" alt="Alok"/></a>
+</p>
+
+
+
+
 <h3 align="center">Thanks to all Collaborators 💪</h3>
+
 ---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
----
 
-## 📬 Contact
-
-For queries or collaboration, reach out via:  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-
----
